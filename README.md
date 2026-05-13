@@ -30,4 +30,4 @@ Sebagai Data Engineer, fokus utama pada fase ini adalah memastikan kualitas data
 * `database nickel` : database yang berisikan seluruh data berformat sql (`table mines`, `table ports`, `vw_fact_mines.csv`, dan `vw_summary_provinsi.csv` )
 * `data clean fr db/can used for analytics` : Hasil akhir berupa *View* yang diekspor (`vw_fact_mines.csv`, `vw_summary_provinsi.csv`)
 * `data clean fr db/tabel fr db` : Hasil akhir tabel mines dan tabel port yang diekspor dengan format csv
-* `scripts/` : Menyimpan `cleaning_and_transformation.sql` berisi seluruh riwayat *query*.
+* `cleaning_and_transformation.sql` berisi seluruh riwayat *query*.
