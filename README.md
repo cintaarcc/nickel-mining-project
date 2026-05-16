@@ -26,8 +26,7 @@ Sebagai Data Engineer, fokus utama pada fase ini adalah memastikan kualitas data
   2. `vw_summary_provinsi`: Tabel agregasi ringkasan eksekutif performa per provinsi.
 
 ## 📂 Repository Structure
-* `data_raw/` : Dataset awal sebelum diproses (`cleaned_ports.csv`, `cleaned_mines_final.csv`)
-* `database nickel` : database yang berisikan seluruh data berformat sql (`table mines`, `table ports`, `vw_fact_mines.csv`, dan `vw_summary_provinsi.csv` )
-* `data clean fr db/can used for analytics` : Hasil akhir berupa *View* yang diekspor (`vw_fact_mines.csv`, `vw_summary_provinsi.csv`)
+* `database nickel` : database yang berisikan seluruh data berformat sql (`table mines`, `table ports`, `vw_fact_mines.csv`)
+* `data clean fr db/can used for analytics` : Hasil akhir berupa *View* yang diekspor (`vw_fact_mines.csv`)
 * `data clean fr db/tabel fr db` : Hasil akhir tabel mines dan tabel port yang diekspor dengan format csv
 * `cleaning_and_transformation.sql` berisi seluruh riwayat *query*.
